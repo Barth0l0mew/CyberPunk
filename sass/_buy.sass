@@ -1,0 +1,66 @@
+.buy
+    background: #000
+    
+    &__wrapper
+        display: flex
+    &__left
+        max-width: 640px
+     
+        height: 689px
+    &__fon
+        height: 689px
+        width:640px
+        object-fit: cover
+    &__right     
+        color: #fff
+        max-width: 640px
+        padding-top: 70px
+        padding-left: 32px 
+    &__title
+        margin: 0px
+        font-family: 'Archangelsk'
+        font-style: normal
+        font-weight: 400
+        font-size: 62px
+        line-height: 63px    
+        margin-bottom: 25px
+    &__about
+        display: block
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 700
+        font-size: 24px
+        line-height: 28px
+        color: #52BEDC
+        margin-bottom: 15px
+    &__items
+        margin-bottom: 70px 
+    &__item
+        display: flex
+        align-items: center
+        list-style-type: none
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 400
+        font-size: 18px
+        line-height: 21px
+        padding-left: 42px 
+        height: 32px
+        &:nth-child(1)
+            background: url("../img/disk.svg") left no-repeat
+        &:nth-child(2)
+            background: url("../img/wysiwyg.svg") left no-repeat    
+        &:nth-child(3)
+            background: url("../img/collections.svg") left no-repeat    
+    &__item:not(:last-child)
+        margin-bottom: 15px
+    &__image
+        width: 319px
+        height: 186px
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        flex-wrap: wrap
+    &__logo
+        margin-bottom: 40px
+     

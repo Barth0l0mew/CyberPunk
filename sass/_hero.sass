@@ -1,0 +1,51 @@
+@keyframes fon 
+    0%
+        background-image: url("../img/full/fon1.svg") 
+    33%
+        background-image: url("../img/full/fon2.svg")
+    66% 
+         background-image: url("../img/full/fon3.svg") 
+    100%    
+         background-image: url("../img/full/fon1.svg") 
+
+.hero
+    background-repeat: no-repea
+    background-size: cover
+    background-position: center, center 
+    overflow: hidden
+    animation-name: fon
+    animation-duration: 10s
+    animation-timing-function: liner
+    animation-iteration-count: infinite
+    &__wrapper
+        position: relative
+        height: 1000px
+    &__card
+        width: 624px
+        height: 369px   
+        position: absolute
+        bottom: 0px
+        right: 0px
+        z-index: 5
+        background: $colorCard
+        padding: 70px
+        display: flex
+        flex-direction: column
+    &__title
+        font-size: 62px
+        margin-bottom: 25px  
+        line-height: 63px    
+        display: block
+        /* Доступно на всех платформах */
+    &__link
+        width: 272px
+        height: 78px
+        background: $backgroundHeroLink
+        padding: 19px 50px
+        color: $colorTextCard
+        text-decoration: none
+        font-weight: 700
+        font-size: 24px
+        line-height: 40px
+        font-family: 'Roboto', sans-serif
+        /* Узнать больше */

@@ -1,0 +1,104 @@
+.border 
+    height: 70px
+    background: url("../img/border.svg")
+    
+.sale
+    background: $backgroundSale
+    color: $colorTextSale
+    padding-bottom: 70px
+    &__wrapper
+        padding-top: 15px
+    &__header
+        display: flex
+        
+    &__icon
+        width: 132px
+        height: 132px
+        margin-right: 32px
+    &__title
+        font-size: 62px
+        line-height: 63px
+        font-weight: 400
+    &__main
+        margin-top: 25px
+        margin-bottom: 25px
+        max-width: 952px  
+        font-weight: 400        
+        font-size: 18px
+        line-height: 34px 
+    &__about    
+        font-family: 'Roboto', sans-serif
+    &__about-main-text
+        font-weight: 400
+        color: $colorHeaderText 
+        font-family: 'Roboto', sans-serif
+    &__footer
+        display: flex
+        align-items: flex-end
+        
+    &__form
+        margin-right: 32px
+        display: flex
+        flex-direction: column
+    &__input
+        font-family: 'Roboto',sans-serif
+        max-width: 460px
+        height: 35px
+        background: none
+        border: none
+        border-bottom: 1px solid #777
+        color: $colorTextSale
+        font-weight: 300
+        font-size: 18px
+        line-height: 21px
+        margin-bottom: 35px 
+    &__screen
+        border:1px dashed #777
+        max-width: 460px
+        height: 120px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-bottom: 35px 
+    &__screen-text
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 300
+        font-size: 18px
+        line-height: 21px
+    &__screen-text:not(:last-child)
+        margin-bottom: 7px
+        text-decoration-line: underline    
+    &__send
+        width: 192px
+        height: 59px
+        background: $colorCard
+        padding: 15px 50px
+        border: none
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 700
+        font-size: 18px
+        line-height: 21px
+        margin-bottom: 15px
+    &__check
+        background: none    
+    &__pc
+        display: flex
+        position: relative
+        max-width: 788px
+    &__xbox
+        z-index: 1    
+        width: 200px
+        object-fit: cover
+    &__sp
+        position: absolute
+        width: 200px
+        left: 328px
+        object-fit: cover
+        z-index: 0
+.border-bottom
+    height: 70px
+    background: url("../img/border2.svg")
+
